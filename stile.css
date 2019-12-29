@@ -1,0 +1,46 @@
+ body {
+    font: 11pt Arial, Helvetica, sans-serif; /* Рубленый шрифт текста */
+    margin: 0; /* Отступы на странице */
+   }
+   h1 {
+    font-size: 24px; /* Размер шрифта */
+    margin: 0; /* Убираем отступы */
+    color: #D6D6D6; /* Цвет текста */
+   }
+   h2 {
+    margin-top: 0; /* Убираем отступ сверху */
+   }
+   #header { /* Верхний блок */
+    background: #0D0D0D ; /* Цвет фона */
+    padding: 1px 5px; /* Поля вокруг текста */
+   }
+   #sidebar { /* Левая колонка */
+   font-size: 24px;
+    float: left; /* Обтекание справа */
+    /* background-color: rgba(0, 18, 10, 0.5);  Прозрачный фон */
+    /*  border: 1px solid #333; Параметры рамки вокруг */
+    width: 14%; /* Ширина колонки */
+    padding: 5px; /* Поля вокруг текста */
+    margin: 10px 10px 20px 5px; /* Значения отступов */
+
+   }
+
+   #content { /* Правая колонка */
+   font-size: 28px;
+    margin: 10px 5px 20px 16%; /* Значения отступов */
+    padding: 5px; /* Поля вокруг текста */
+    /* border: 1px solid #333;  Параметры рамки */
+    color: #FFFFFF ;
+   }
+    #footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 1px; /* Поля вокруг текста */
+    background: #738678 ; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+   }
+    a {
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+    color: #EFDECD
+   }
